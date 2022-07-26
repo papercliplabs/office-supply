@@ -59,15 +59,6 @@ const App = () => {
           </div>
         </div>
       </div>
-      <div className="content">
-        <h1>Component example</h1>
-        <h2>impact count: {impactCount}</h2>
-        <div className="component-parent">
-          <DvdScreensaver impactCallback={handleComponentImpactCount}>
-            <img src={require("./doge.png")} alt="" />
-          </DvdScreensaver>
-        </div>
-      </div>
     </div>
   );
 };

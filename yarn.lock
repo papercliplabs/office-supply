@@ -1425,6 +1425,11 @@ react-dom@18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
+react-dvd-screensaver@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/react-dvd-screensaver/-/react-dvd-screensaver-0.0.4.tgz#6bbd2f600a56e53d4d08791be69f8c9b8774ff2e"
+  integrity sha512-Z0lfcxmJbsTaXSs3AzLinqExRbpusam36a9/ah3H8vu2rUctW7mYa9knbEmaG//yyZ2JiayfqyUe/JIUCnWTKw==
+
 react-is@^16.13.1:
   version "16.13.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
