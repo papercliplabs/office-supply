@@ -4,7 +4,6 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 import DvdAnimation from "../components/DVD";
-import Dvdbox from '../components/DVDCanvas';
 
 const Home: NextPage = () => {
   return (
@@ -15,18 +14,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Dvdbox>
       <DvdAnimation>
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Next.js!</a>
-        </h1>
-      </main>
-
-      <footer className={styles.footer}>
-      </footer>
       </DvdAnimation>
-      </Dvdbox>
     </div>
   )
 }
