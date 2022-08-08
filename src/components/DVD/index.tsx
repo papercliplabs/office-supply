@@ -35,7 +35,7 @@ const Dvd= styled.div`
 
 const Dvdbox = styled.div`
     overflow: hidden;
-    // background-color: #006699;
+    background-color: #FFFFFF;
     margin: 0 auto;
     width: 100%;
     height: 100%;
