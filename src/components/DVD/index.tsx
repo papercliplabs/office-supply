@@ -31,6 +31,10 @@ const Dvd= styled.div`
   position: absolute;
 
   animation: ${moveX} 3s linear 0s infinite alternate, ${moveY} 7.4s linear 0s infinite alternate;
+
+  :hover{
+    animation-play-state: paused;
+  }
 `;
 
 const Dvdbox = styled.div`
