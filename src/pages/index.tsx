@@ -1,10 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-<<<<<<< HEAD
-=======
-import styles from '../styles/Home.module.css'
 
->>>>>>> de5b7a57e6bb5de28ab5344a0ba7492ad1c5bac0
 
 import styled from "styled-components";
 import DvdAnimation from "../components/DVD";
