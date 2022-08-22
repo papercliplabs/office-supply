@@ -36,7 +36,7 @@ const Dvd= styled.div`
   animation: ${moveX} 3s linear 0s infinite alternate, ${moveY} 7.4s linear 0s infinite alternate;
 
   :hover{
-    cursor: url(http://www.javascriptkit.com/dhtmltutors/cursor-hand.gif), auto;
+    cursor: url(https://raw.githubusercontent.com/papercliplabs/office-supply/f7c91aa423ee71d5a86faddf6ad3bbe365ed897a/src/components/Cursor/onhovercursor.svg), auto;
     animation-play-state: paused;
   }
 `;
