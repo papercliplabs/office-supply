@@ -36,7 +36,7 @@ const Dvd= styled.div`
   animation: ${moveX} 3s linear 0s infinite alternate, ${moveY} 7.4s linear 0s infinite alternate;
 
   :hover{
-    cursor: url(https://raw.githubusercontent.com/papercliplabs/office-supply/f7c91aa423ee71d5a86faddf6ad3bbe365ed897a/src/components/Cursor/onhovercursor.svg), auto;
+    cursor: url(https://raw.githubusercontent.com/papercliplabs/office-supply/06faab70f31bd5d1119df52ec281daea4ef70e73/public/images/onhovercursor.svg), auto;
     animation-play-state: paused;
   }
 `;
@@ -55,18 +55,22 @@ const Dvdbox = styled.div`
   flex-direction: row;
   justify-content: center;
   align-items: center;
-`;
+  cursor: url(https://raw.githubusercontent.com/papercliplabs/office-supply/06faab70f31bd5d1119df52ec281daea4ef70e73/public/images/defaultcursor.svg), auto;
+
+  `;
 
 const Dvdboks=styled.div`
   position: fixed;
-  width: 1315px;
-  height: 636px;
+  width: 1320px;
+  height: 640px;
   margin: auto;
   overflow:hidden;
 
   background: #2E2E2E;
   box-shadow: inset 0px 0px 0px 12px #161616;
   border-radius: 32px;
+
+  
 `;
 
 export default function DvdAnimation(props: any) {
