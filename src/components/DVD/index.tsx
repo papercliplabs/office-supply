@@ -1,11 +1,11 @@
 import React from "react";
-import styled, { keyframes } from "styled-components";
+import styled, { useTheme, keyframes } from "styled-components";
 import Image from 'next/image'
 import Link from 'next/link'
 
 import CursorImg from '../Cursor/defaultcursor.svg';
 import DvdImg from '../DVD/dvdanimationimage.svg';
-import DvdCanvasImg from '../DVD/dvdcanvasimg.svg';
+import DvdCanvasImg from "@images/dvdcanvasimg.svg";
 
 const moveX = keyframes`
 from { 
@@ -39,6 +39,8 @@ const Dvd= styled.div`
     cursor: url(https://raw.githubusercontent.com/papercliplabs/office-supply/06faab70f31bd5d1119df52ec281daea4ef70e73/public/images/onhovercursor.svg), auto;
     animation-play-state: paused;
   }
+
+
 `;
 
 const Dvdbox = styled.div`
@@ -60,7 +62,7 @@ const Dvdbox = styled.div`
   `;
 
 const Dvdboks=styled.div`
-  position: fixed;
+  position: relative;
   width: 1320px;
   height: 640px;
   margin: auto;
@@ -69,6 +71,7 @@ const Dvdboks=styled.div`
   background: #2E2E2E;
   box-shadow: inset 0px 0px 0px 12px #161616;
   border-radius: 32px;
+
 
   
 `;
@@ -80,7 +83,7 @@ export default function DvdAnimation(props: any) {
     <Image src={DvdCanvasImg} alt={"DvdCanvasImg"} layout="responsive"/>
     <Dvd>
       <Link href ="https://twitter.com/OfficeSply">
-        <Image src={DvdImg} alt={"DvdImg"} min-height="129px" min-width="77px"/>
+        <Image src={DvdImg} alt={"DvdImg"}/>
       </Link>
     </Dvd>
   </Dvdboks>
